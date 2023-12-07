@@ -1,0 +1,27 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Base.Theme.Music" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:fontFamily">@font/mukta</item>
+        <item name="fontFamily">@font/mukta</item>
+        <item name="android:statusBarColor">#52A0FF</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+    </style>
+    <style name="Theme.App.Starting" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/white</item>
+        <item name="windowSplashScreenAnimatedIcon">@mipmap/ic_launcher</item>
+        <item name="postSplashScreenTheme">@style/Theme.Music</item>
+    </style>
+    <style name="iconColor">
+        <item name="android:tint">#FFFFFF</item>
+    </style>
+    <style name="ToolbarTheme">
+        <item name="android:backgroundTint">#52A0FF</item>
+    </style>
+    <style name="PlayerBg">
+        <item name="android:backgroundTint">#52A0FF</item>
+    </style>
+    <style name="FrameLayoutBg">
+        <item name="android:background">#FFFFFF</item>
+    </style>
+    <style name="Theme.Music" parent="Base.Theme.Music" />
+</resources>
